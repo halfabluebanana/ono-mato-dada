@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phoneme Sound App</title>
+</head>
+<body>
+    <h1>Phoneme Sound App</h1>
+    <input type="range" id="soundSlider" min="0" max="5" step="0.1" value="1">
+    <p>Slide to adjust the phoneme sound duration</p>
+    <button onclick="playSound('a-cake')">Play "A" Sound</button>
+    <button onclick="playSound('e')">Play "E" Sound</button>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
